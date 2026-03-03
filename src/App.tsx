@@ -3,8 +3,7 @@ import Global from "./assets/global/clbdlmantenimiento.png"
 // import Flag from "./assets/global/flag.png"
 import VehicleSearchPage from "./features/vehicle/pages/VehicleSearPage"
 function App() {
-  const WA_PREFIX = "https://wa.me/";
-  const WA_NUMBER = "51999999999"; // tu número
+
   return (
     <>
       <header className="max-w-5xl w-full mx-auto mb-8 sticky top-0 z-50">
