@@ -1,0 +1,825 @@
+[
+    {
+        "plate": "DOS-123",
+        "client": "Cliente 1",
+        "vehicle": {
+            "brand": "Mitsubishi",
+            "model": "Lancer",
+            "year": 2014,
+            "vin": "VIN00001XYZ"
+        },
+        "oil": {
+            "brand": "Motul",
+            "viscosity": "0W-20",
+            "spec": "API SP / ILSAC GF-6"
+        },
+        "filters": [
+            {
+                "type": "Aceite",
+                "code": "OIL-1000"
+            },
+            {
+                "type": "Aire",
+                "code": "AIR-2000"
+            },
+            {
+                "type": "Cabina",
+                "code": "CAB-3000"
+            }
+        ],
+        "next_maintenance": {
+            "at_km": 57819,
+            "at_date": "2026-05-10"
+        },
+        "notes": "Sin observaciones relevantes. Mantener intervalos cada 5,000–10,000 km.",
+        "services": [
+            {
+                "date": "2025-06-12",
+                "odometer": 75945,
+                "work": [
+                    "Cambio de aceite y filtro",
+                    "Revisión general"
+                ],
+                "oil_added_l": 4.5,
+                "invoice_url": "#",
+                "media": [
+                    {
+                        "type": "image",
+                        "url": "/assets/ABC-123/2025-06-12/foto1.jpg",
+                        "caption": "Cambio de aceite"
+                    },
+                    {
+                        "type": "image",
+                        "url": "assets/ABC-123/2025-06-12/foto2.jpg",
+                        "caption": "Filtro instalado"
+                    },
+                    {
+                        "type": "image",
+                        "url": "assets/cambio-bujias.jpg",
+                        "caption": "Evidencia — Cambio de bujías"
+                    }
+                ]
+            },
+            {
+                "date": "2024-12-05",
+                "odometer": 45663,
+                "work": [
+                    "Cambio de filtro de aire",
+                    "Limpieza de mariposa"
+                ],
+                "invoice_url": "#",
+                "media": [
+                    {
+                        "type": "image",
+                        "url": "/assets/ABC-123/2024-12-05/foto1.jpg",
+                        "caption": "Filtro aire usado"
+                    }
+                ]
+            },
+            {
+                "date": "2025-08-25",
+                "odometer": 76145,
+                "work": [
+                    "Alineación y balanceo"
+                ],
+                "invoice_url": "#",
+                "media": [
+                    {
+                        "type": "image",
+                        "url": "/assets/ABC-123/2025-08-25/alineamiento.jpg",
+                        "caption": "Evidencia — Alineación y balanceo"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "plate": "XYZ-987",
+        "client": "Cliente 2",
+        "vehicle": {
+            "brand": "Kia",
+            "model": "Picanto",
+            "year": 2015,
+            "vin": "VIN00002XYZ"
+        },
+        "oil": {
+            "brand": "Shell Helix",
+            "viscosity": "5W-30",
+            "spec": "API SN Plus"
+        },
+        "filters": [
+            {
+                "type": "Aceite",
+                "code": "OIL-1001"
+            },
+            {
+                "type": "Aire",
+                "code": "AIR-2001"
+            },
+            {
+                "type": "Cabina",
+                "code": "CAB-3001"
+            }
+        ],
+        "next_maintenance": {
+            "at_km": 116248,
+            "at_date": "2026-05-18"
+        },
+        "notes": "Sin observaciones relevantes. Mantener intervalos cada 5,000–10,000 km.",
+        "services": [
+            {
+                "date": "2025-07-29",
+                "odometer": 90857,
+                "work": [
+                    "Cambio de aceite y filtro",
+                    "Revisión general"
+                ],
+                "oil_added_l": 3.5,
+                "invoice_url": "#",
+                "media": [
+                    {
+                        "type": "image",
+                        "url": "/assets/XYZ-987/2025-07-29/evidencia1.jpg",
+                        "caption": "Cambio de aceite"
+                    },
+                    {
+                        "type": "image",
+                        "url": "/assets/XYZ-987/2025-07-29/evidencia2.jpg",
+                        "caption": "Filtro instalado"
+                    },
+                    {
+                        "type": "image",
+                        "url": "assets/XYZ-987/2025-07-29/evidencia-1.jpg",
+                        "caption": "Evidencia — Vista general"
+                    }
+                ]
+            },
+            {
+                "date": "2024-09-23",
+                "odometer": 57852,
+                "work": [
+                    "Cambio de filtro de aire",
+                    "Limpieza de mariposa"
+                ],
+                "invoice_url": "#",
+                "media": [
+                    {
+                        "type": "image",
+                        "url": "assets/foto2.jpg",
+                        "caption": "Filtro aire usado"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "plate": "BAG-201",
+        "client": "Cliente 3",
+        "vehicle": {
+            "brand": "Chevrolet",
+            "model": "Captiva",
+            "year": 2016,
+            "vin": "VIN00003XYZ"
+        },
+        "oil": {
+            "brand": "Motul",
+            "viscosity": "0W-20",
+            "spec": "API SP / ILSAC GF-6"
+        },
+        "filters": [
+            {
+                "type": "Aceite",
+                "code": "OIL-1002"
+            },
+            {
+                "type": "Aire",
+                "code": "AIR-2002"
+            },
+            {
+                "type": "Cabina",
+                "code": "CAB-3002"
+            }
+        ],
+        "next_maintenance": {
+            "at_km": 93701,
+            "at_date": "2026-03-01"
+        },
+        "notes": "Sin observaciones relevantes. Mantener intervalos cada 5,000–10,000 km.",
+        "services": [
+            {
+                "date": "2025-05-07",
+                "odometer": 116519,
+                "work": [
+                    "Cambio de aceite y filtro",
+                    "Revisión general"
+                ],
+                "oil_added_l": 4.0,
+                "invoice_url": "#",
+                "media": [
+                    {
+                        "type": "image",
+                        "url": "/assets/foto4.jpg",
+                        "caption": "Cambio de aceite"
+                    },
+                    {
+                        "type": "image",
+                        "url": "/assets/foto2.jpg",
+                        "caption": "Filtro instalado"
+                    }
+                ]
+            },
+            {
+                "date": "2024-10-07",
+                "odometer": 91924,
+                "work": [
+                    "Cambio de filtro de aire",
+                    "Limpieza de mariposa"
+                ],
+                "invoice_url": "#",
+                "media": [
+                    {
+                        "type": "image",
+                        "url": "/assets/foto2.jpg",
+                        "caption": "Filtro aire usado"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "plate": "TKS-777",
+        "client": "Cliente 4",
+        "vehicle": {
+            "brand": "Toyota",
+            "model": "Yaris",
+            "year": 2017,
+            "vin": "VIN00004XYZ"
+        },
+        "oil": {
+            "brand": "Motul",
+            "viscosity": "0W-20",
+            "spec": "API SP / ILSAC GF-6"
+        },
+        "filters": [
+            {
+                "type": "Aceite",
+                "code": "OIL-1003"
+            },
+            {
+                "type": "Aire",
+                "code": "AIR-2003"
+            },
+            {
+                "type": "Cabina",
+                "code": "CAB-3003"
+            }
+        ],
+        "next_maintenance": {
+            "at_km": 73863,
+            "at_date": "2025-12-06"
+        },
+        "notes": "Sin observaciones relevantes. Mantener intervalos cada 5,000–10,000 km.",
+        "services": [
+            {
+                "date": "2025-04-27",
+                "odometer": 81591,
+                "work": [
+                    "Cambio de aceite y filtro",
+                    "Revisión general"
+                ],
+                "oil_added_l": 4.5,
+                "invoice_url": "#",
+                "media": [
+                    {
+                        "type": "image",
+                        "url": "/assets/foto5.jpg",
+                        "caption": "Cambio de aceite"
+                    },
+                    {
+                        "type": "image",
+                        "url": "/assets/foto4.jpg",
+                        "caption": "Filtro instalado"
+                    }
+                ]
+            },
+            {
+                "date": "2024-12-28",
+                "odometer": 61894,
+                "work": [
+                    "Cambio de filtro de aire",
+                    "Limpieza de mariposa"
+                ],
+                "invoice_url": "#",
+                "media": [
+                    {
+                        "type": "image",
+                        "url": "/assets/foto2.jpg",
+                        "caption": "Filtro aire usado"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "plate": "PEK-456",
+        "client": "Cliente 5",
+        "vehicle": {
+            "brand": "Hyundai",
+            "model": "Accent",
+            "year": 2018,
+            "vin": "VIN00005XYZ"
+        },
+        "oil": {
+            "brand": "Castrol",
+            "viscosity": "10W-40",
+            "spec": "API SL/CF"
+        },
+        "filters": [
+            {
+                "type": "Aceite",
+                "code": "OIL-1004"
+            },
+            {
+                "type": "Aire",
+                "code": "AIR-2004"
+            },
+            {
+                "type": "Cabina",
+                "code": "CAB-3004"
+            }
+        ],
+        "next_maintenance": {
+            "at_km": 101671,
+            "at_date": "2026-05-30"
+        },
+        "notes": "Sin observaciones relevantes. Mantener intervalos cada 5,000–10,000 km.",
+        "services": [
+            {
+                "date": "2025-06-01",
+                "odometer": 64583,
+                "work": [
+                    "Cambio de aceite y filtro",
+                    "Revisión general"
+                ],
+                "oil_added_l": 5.0,
+                "invoice_url": "#",
+                "media": [
+                    {
+                        "type": "image",
+                        "url": "/assets/foto2.jpg",
+                        "caption": "Cambio de aceite"
+                    },
+                    {
+                        "type": "image",
+                        "url": "/assets/foto5.jpg",
+                        "caption": "Filtro instalado"
+                    }
+                ]
+            },
+            {
+                "date": "2025-03-23",
+                "odometer": 41301,
+                "work": [
+                    "Cambio de filtro de aire",
+                    "Limpieza de mariposa"
+                ],
+                "invoice_url": "#",
+                "media": [
+                    {
+                        "type": "image",
+                        "url": "/assets/foto3.jpg",
+                        "caption": "Filtro aire usado"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "plate": "GFC-889",
+        "client": "Cliente 6",
+        "vehicle": {
+            "brand": "Nissan",
+            "model": "Versa",
+            "year": 2019,
+            "vin": "VIN00006XYZ"
+        },
+        "oil": {
+            "brand": "Shell Helix",
+            "viscosity": "5W-30",
+            "spec": "API SN Plus"
+        },
+        "filters": [
+            {
+                "type": "Aceite",
+                "code": "OIL-1005"
+            },
+            {
+                "type": "Aire",
+                "code": "AIR-2005"
+            },
+            {
+                "type": "Cabina",
+                "code": "CAB-3005"
+            }
+        ],
+        "next_maintenance": {
+            "at_km": 116564,
+            "at_date": "2026-03-15"
+        },
+        "notes": "Sin observaciones relevantes. Mantener intervalos cada 5,000–10,000 km.",
+        "services": [
+            {
+                "date": "2025-08-12",
+                "odometer": 115271,
+                "work": [
+                    "Cambio de aceite y filtro",
+                    "Revisión general"
+                ],
+                "oil_added_l": 4.6,
+                "invoice_url": "#",
+                "media": [
+                    {
+                        "type": "image",
+                        "url": "/assets/foto1.jpg",
+                        "caption": "Cambio de aceite"
+                    },
+                    {
+                        "type": "image",
+                        "url": "/assets/foto5.jpg",
+                        "caption": "Filtro instalado"
+                    }
+                ]
+            },
+            {
+                "date": "2024-07-27",
+                "odometer": 80553,
+                "work": [
+                    "Cambio de filtro de aire",
+                    "Limpieza de mariposa"
+                ],
+                "invoice_url": "#",
+                "media": [
+                    {
+                        "type": "image",
+                        "url": "/assets/foto1.jpg",
+                        "caption": "Filtro aire usado"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "plate": "JPG-315",
+        "client": "Cliente 7",
+        "vehicle": {
+            "brand": "Volkswagen",
+            "model": "Gol",
+            "year": 2020,
+            "vin": "VIN00007XYZ"
+        },
+        "oil": {
+            "brand": "Castrol",
+            "viscosity": "10W-40",
+            "spec": "API SL/CF"
+        },
+        "filters": [
+            {
+                "type": "Aceite",
+                "code": "OIL-1006"
+            },
+            {
+                "type": "Aire",
+                "code": "AIR-2006"
+            },
+            {
+                "type": "Cabina",
+                "code": "CAB-3006"
+            }
+        ],
+        "next_maintenance": {
+            "at_km": 53379,
+            "at_date": "2025-11-03"
+        },
+        "notes": "Sin observaciones relevantes. Mantener intervalos cada 5,000–10,000 km.",
+        "services": [
+            {
+                "date": "2025-08-08",
+                "odometer": 80189,
+                "work": [
+                    "Cambio de aceite y filtro",
+                    "Revisión general"
+                ],
+                "oil_added_l": 4.2,
+                "invoice_url": "#",
+                "media": [
+                    {
+                        "type": "image",
+                        "url": "/assets/foto6.jpg",
+                        "caption": "Cambio de aceite"
+                    },
+                    {
+                        "type": "image",
+                        "url": "/assets/foto5.jpg",
+                        "caption": "Filtro instalado"
+                    }
+                ]
+            },
+            {
+                "date": "2025-04-13",
+                "odometer": 41368,
+                "work": [
+                    "Cambio de filtro de aire",
+                    "Limpieza de mariposa"
+                ],
+                "invoice_url": "#",
+                "media": [
+                    {
+                        "type": "image",
+                        "url": "/assets/foto4.jpg",
+                        "caption": "Filtro aire usado"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "plate": "JHN-902",
+        "client": "Cliente 8",
+        "vehicle": {
+            "brand": "Renault",
+            "model": "Logan",
+            "year": 2021,
+            "vin": "VIN00008XYZ"
+        },
+        "oil": {
+            "brand": "Castrol",
+            "viscosity": "10W-40",
+            "spec": "API SL/CF"
+        },
+        "filters": [
+            {
+                "type": "Aceite",
+                "code": "OIL-1007"
+            },
+            {
+                "type": "Aire",
+                "code": "AIR-2007"
+            },
+            {
+                "type": "Cabina",
+                "code": "CAB-3007"
+            }
+        ],
+        "next_maintenance": {
+            "at_km": 63458,
+            "at_date": "2026-03-27"
+        },
+        "notes": "Sin observaciones relevantes. Mantener intervalos cada 5,000–10,000 km.",
+        "services": [
+            {
+                "date": "2025-06-07",
+                "odometer": 111784,
+                "work": [
+                    "Cambio de aceite y filtro",
+                    "Revisión general"
+                ],
+                "oil_added_l": 4.2,
+                "invoice_url": "#",
+                "media": [
+                    {
+                        "type": "image",
+                        "url": "/assets/foto4.jpg",
+                        "caption": "Cambio de aceite"
+                    },
+                    {
+                        "type": "image",
+                        "url": "/assets/foto1.jpg",
+                        "caption": "Filtro instalado"
+                    }
+                ]
+            },
+            {
+                "date": "2024-08-01",
+                "odometer": 95201,
+                "work": [
+                    "Cambio de filtro de aire",
+                    "Limpieza de mariposa"
+                ],
+                "invoice_url": "#",
+                "media": [
+                    {
+                        "type": "image",
+                        "url": "/assets/foto5.jpg",
+                        "caption": "Filtro aire usado"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "plate": "LUB-555",
+        "client": "Cliente 9",
+        "vehicle": {
+            "brand": "Ford",
+            "model": "Fiesta",
+            "year": 2022,
+            "vin": "VIN00009XYZ"
+        },
+        "oil": {
+            "brand": "Motul",
+            "viscosity": "0W-20",
+            "spec": "API SP / ILSAC GF-6"
+        },
+        "filters": [
+            {
+                "type": "Aceite",
+                "code": "OIL-1008"
+            },
+            {
+                "type": "Aire",
+                "code": "AIR-2008"
+            },
+            {
+                "type": "Cabina",
+                "code": "CAB-3008"
+            }
+        ],
+        "next_maintenance": {
+            "at_km": 58590,
+            "at_date": "2026-05-05"
+        },
+        "notes": "Sin observaciones relevantes. Mantener intervalos cada 5,000–10,000 km.",
+        "services": [
+            {
+                "date": "2025-08-13",
+                "odometer": 93174,
+                "work": [
+                    "Cambio de aceite y filtro",
+                    "Revisión general"
+                ],
+                "oil_added_l": 3.1,
+                "invoice_url": "#",
+                "media": [
+                    {
+                        "type": "image",
+                        "url": "/assets/foto4.jpg",
+                        "caption": "Cambio de aceite"
+                    },
+                    {
+                        "type": "image",
+                        "url": "/assets/foto1.jpg",
+                        "caption": "Filtro instalado"
+                    }
+                ]
+            },
+            {
+                "date": "2024-09-06",
+                "odometer": 81771,
+                "work": [
+                    "Cambio de filtro de aire",
+                    "Limpieza de mariposa"
+                ],
+                "invoice_url": "#",
+                "media": [
+                    {
+                        "type": "image",
+                        "url": "/assets/foto6.jpg",
+                        "caption": "Filtro aire usado"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "plate": "OIL-222",
+        "client": "Cliente 10",
+        "vehicle": {
+            "brand": "Honda",
+            "model": "City",
+            "year": 2023,
+            "vin": "VIN00010XYZ"
+        },
+        "oil": {
+            "brand": "Shell Helix",
+            "viscosity": "5W-30",
+            "spec": "API SN Plus"
+        },
+        "filters": [
+            {
+                "type": "Aceite",
+                "code": "OIL-1009"
+            },
+            {
+                "type": "Aire",
+                "code": "AIR-2009"
+            },
+            {
+                "type": "Cabina",
+                "code": "CAB-3009"
+            }
+        ],
+        "next_maintenance": {
+            "at_km": 66216,
+            "at_date": "2026-05-26"
+        },
+        "notes": "Sin observaciones relevantes. Mantener intervalos cada 5,000–10,000 km.",
+        "services": [
+            {
+                "date": "2025-05-27",
+                "odometer": 72433,
+                "work": [
+                    "Cambio de aceite y filtro",
+                    "Revisión general"
+                ],
+                "oil_added_l": 3.2,
+                "invoice_url": "#",
+                "media": [
+                    {
+                        "type": "image",
+                        "url": "/assets/foto6.jpg",
+                        "caption": "Cambio de aceite"
+                    },
+                    {
+                        "type": "image",
+                        "url": "/assets/foto2.jpg",
+                        "caption": "Filtro instalado"
+                    }
+                ]
+            },
+            {
+                "date": "2025-02-03",
+                "odometer": 52948,
+                "work": [
+                    "Cambio de filtro de aire",
+                    "Limpieza de mariposa"
+                ],
+                "invoice_url": "#",
+                "media": [
+                    {
+                        "type": "image",
+                        "url": "/assets/foto6.jpg",
+                        "caption": "Filtro aire usado"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "plate": "T1B-323",
+        "client": "Cliente nuevo",
+        "vehicle": {
+            "brand": "Jeep",
+            "model": "Wrangler Rubicon",
+            "year": 2020,
+            "vin": "VIN-T1B323"
+        },
+        "oil": {
+            "brand": "Castrol",
+            "viscosity": "5W-30",
+            "spec": "API SN Plus"
+        },
+        "filters": [
+            {
+                "type": "Aceite",
+                "code": "CAST-001"
+            },
+            {
+                "type": "Aire",
+                "code": "CAST-002"
+            },
+            {
+                "type": "Cabina",
+                "code": "CAST-003"
+            }
+        ],
+        "next_maintenance": {
+            "at_km": 95000,
+            "at_date": "2026-02-21"
+        },
+        "notes": "Se observó filtración de aceite en la tapa de balancines. Recomendar reemplazo de empaquetadura.",
+        "services": [
+            {
+                "date": "2025-08-25",
+                "odometer": 90000,
+                "work": [
+                    "Cambio de aceite y filtros",
+                    "Cambio de bujías"
+                ],
+                "oil_added_l": 4.5,
+                "invoice_url": "#",
+                "media": [
+                    {
+                        "type": "image",
+                        "url": "/assets/T1B-323/2025-08-25/cambio-aceite.jpg",
+                        "caption": "Evidencia — Cambio de aceite y filtros"
+                    },
+                    {
+                        "type": "image",
+                        "url": "/assets/T1B-323/2025-08-25/cambio-bujias.jpg",
+                        "caption": "Evidencia — Cambio de bujías"
+                    }
+                ]
+            }
+        ]
+    }
+]

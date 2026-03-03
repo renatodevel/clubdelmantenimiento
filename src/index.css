@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-vulcan-50: #F5F7FA;
+  --color-vulcan-100: #E9ECF5;
+  --color-vulcan-200: #CFD8E8;
+  --color-vulcan-300: #A5B7D4;
+  --color-vulcan-400: #7491BC;
+  --color-vulcan-500: #5273A5;
+  --color-vulcan-600: #3F5A8A;
+  --color-vulcan-700: #344970;
+  --color-vulcan-800: #2E3F5E;
+  --color-vulcan-900: #2B374F;
+  --color-vulcan-950: #0F131C; /* Color principal */
+
+  --color-pumpkin-50: #FFF9EC;
+  --color-pumpkin-100: #FFF1D3;
+  --color-pumpkin-200: #FFDFA5;
+  --color-pumpkin-300: #FFC66D;
+  --color-pumpkin-400: #FFA232;
+  --color-pumpkin-500: #FF860A;
+  --color-pumpkin-600: #FF6D00; /* Color principal */
+  --color-pumpkin-700: #CC4E02;
+  --color-pumpkin-800: #A13D0B;
+  --color-pumpkin-900: #82340C;
+  --color-pumpkin-950: #461804;
+
+  --text-xs: 9.72px;
+  --text-sm: 11.67px;
+  --text-base: 14px;
+  --text-lg: 16.8px;
+  --text-xl: 20.16px;
+  --text-2xl: 24.19px;
+}
+
+body {
+  background-color: var(--color-vulcan-950);
+  font-family: 'Inter', sans-serif;
+  color: var(--color-vulcan-50);
+  font-size: var(--text-base);
+  font-weight: 300;
+  line-height: 1.5;
+}
