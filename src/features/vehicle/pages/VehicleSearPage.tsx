@@ -57,7 +57,7 @@ const VehicleSearchPage = () => {
   }, [vehicle]);
 
   return (
-    <div>
+    <div className="px-4 md:px-0">
       <form onSubmit={handleSearch} className="max-w-2xl w-full mx-auto flex items-center gap-3 mb-6">
         <input
           type="text"
@@ -186,7 +186,7 @@ const VehicleSearchPage = () => {
                         </ul>
                       </div>
 
-                      <div className="flex items-center gap-4">
+                      <div className="flex items-center gap-4 flex-wrap">
                         {
                           service.media.map((media, index) => (
                             <div key={index}>

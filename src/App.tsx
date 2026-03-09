@@ -6,9 +6,9 @@ function App() {
 
   return (
     <>
-      <header className="max-w-5xl w-full mx-auto mb-8 sticky top-0 z-50">
+      <header className="max-w-5xl w-full mx-auto mb-8 sticky top-0 z-50 px-4 md:px-0">
         <div className="bg-vulcan-950 flex items-center justify-between pt-3 pb-3">
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 flex-wrap">
             <a href="" className="flex items-center gap-1 text-sm">
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <mask id="mask0_61_146" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="16">
@@ -20,14 +20,14 @@ function App() {
               </svg>
               Av. El sol 250 Urb. San Carlos , Lima, Peru
             </a>
-            <a href="" className="flex items-center gap-1 text-sm">
+            <a href="" className="items-center gap-1 text-sm hidden md:flex">
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M5.92394 4.78C6.04594 4.78333 6.18128 4.79 6.30995 5.07533C6.39528 5.26533 6.53861 5.61533 6.65595 5.90067C6.74728 6.12267 6.82194 6.30533 6.84061 6.34267C6.88328 6.428 6.90994 6.526 6.85394 6.64133L6.83528 6.68C6.79735 6.76972 6.74561 6.85295 6.68194 6.92667L6.58661 7.04C6.52994 7.10933 6.47328 7.17733 6.42528 7.22533C6.33928 7.31067 6.25061 7.40267 6.34928 7.57333C6.44795 7.744 6.79461 8.30533 7.30594 8.758C7.67993 9.09531 8.10905 9.36591 8.57461 9.558C8.62128 9.578 8.65906 9.59489 8.68794 9.60867C8.85928 9.694 8.96128 9.68067 9.05994 9.566C9.15928 9.45067 9.48861 9.06667 9.60461 8.896C9.71661 8.72533 9.83128 8.752 9.98994 8.81067C10.1486 8.87 10.9926 9.284 11.1639 9.36867L11.2593 9.41533C11.3786 9.472 11.4593 9.51133 11.4939 9.56867C11.5366 9.64133 11.5366 9.982 11.3953 10.3833C11.2499 10.7833 10.5506 11.1673 10.2339 11.1967L10.1439 11.2073C9.85328 11.242 9.48528 11.2873 8.17328 10.7707C6.55594 10.1347 5.48861 8.55733 5.27328 8.238L5.23794 8.18733L5.23394 8.182C5.13594 8.05067 4.53528 7.24733 4.53528 6.418C4.53528 5.62467 4.92661 5.21133 5.10461 5.02333L5.13594 4.99C5.19356 4.92491 5.26396 4.87239 5.34275 4.83568C5.42154 4.79898 5.50705 4.77889 5.59394 4.77667C5.70928 4.77667 5.82528 4.77667 5.92394 4.78Z" fill="#FF860A" />
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M1.45595 14.2207C1.44339 14.2659 1.44297 14.3136 1.45474 14.359C1.4665 14.4044 1.49004 14.4459 1.52297 14.4793C1.5559 14.5127 1.59706 14.5368 1.6423 14.5492C1.68754 14.5617 1.73525 14.5619 1.78062 14.55L4.85195 13.7473C5.8264 14.2751 6.91707 14.5517 8.02528 14.552H8.02795C11.6853 14.552 14.6666 11.588 14.6666 7.944C14.6689 7.07503 14.4983 6.21429 14.1648 5.41187C13.8312 4.60945 13.3415 3.88137 12.7239 3.27C12.1075 2.65361 11.3752 2.16518 10.5693 1.83282C9.76339 1.50045 8.89971 1.3307 8.02795 1.33333C4.37062 1.33333 1.38928 4.29733 1.38928 7.94067C1.38928 9.1 1.69462 10.2387 2.27595 11.2433L1.45595 14.2207ZM3.24062 11.5087C3.27587 11.3807 3.28529 11.247 3.26836 11.1154C3.25142 10.9838 3.20844 10.8569 3.14195 10.742C2.64938 9.89053 2.38978 8.92434 2.38928 7.94067C2.38928 4.854 4.91795 2.33333 8.02795 2.33333C9.54128 2.33333 10.9533 2.918 12.0186 3.97867C12.5428 4.49714 12.9585 5.11479 13.2414 5.7956C13.5243 6.47641 13.6689 7.20674 13.6666 7.944C13.6666 11.0307 11.1379 13.552 8.02795 13.552H8.02462C7.08308 13.5515 6.1565 13.3164 5.32862 12.868C5.10547 12.7472 4.84475 12.7157 4.59928 12.78L2.75795 13.2607L3.24062 11.5087Z" fill="#FF860A" />
               </svg>
               925 988 464
             </a>
-            <a href="" className="flex items-center gap-1 text-sm">
+            <a href="" className="items-center gap-1 text-sm hidden md:flex">
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <mask id="mask0_61_134" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="16">
                   <rect width="16" height="16" fill="#D9D9D9" />
@@ -41,7 +41,7 @@ function App() {
           </div>
 
           <div className="flex items-center gap-4">
-            <span className="text-sm">Siguenos en:</span>
+            <span className="text-sm hidden md:block">Siguenos en:</span>
             <a href="">
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M9.46671 1.91667C8.64896 1.91667 7.8647 2.24152 7.28646 2.81975C6.70822 3.39799 6.38337 4.18225 6.38337 5V6.71667H4.73337C4.65071 6.71667 4.58337 6.78333 4.58337 6.86667V9.13333C4.58337 9.216 4.65004 9.28333 4.73337 9.28333H6.38337V13.9333C6.38337 14.016 6.45004 14.0833 6.53337 14.0833H8.80004C8.88271 14.0833 8.95004 14.0167 8.95004 13.9333V9.28333H10.6147C10.6834 9.28333 10.7434 9.23667 10.76 9.17L11.3267 6.90333C11.3323 6.88121 11.3327 6.85812 11.328 6.83579C11.3234 6.81347 11.3136 6.79252 11.2996 6.77452C11.2856 6.75652 11.2677 6.74195 11.2472 6.73193C11.2267 6.7219 11.2042 6.71668 11.1814 6.71667H8.95004V5C8.95004 4.93215 8.9634 4.86496 8.98937 4.80228C9.01533 4.7396 9.05339 4.68264 9.10137 4.63466C9.14935 4.58668 9.2063 4.54863 9.26899 4.52266C9.33167 4.4967 9.39886 4.48333 9.46671 4.48333H11.2C11.2827 4.48333 11.35 4.41667 11.35 4.33333V2.06667C11.35 1.984 11.2834 1.91667 11.2 1.91667H9.46671Z" fill="#FF860A" />
@@ -71,7 +71,7 @@ function App() {
         </nav>
       </header>
 
-      <section className="mx-auto w-full flex flex-col items-center gap-4 mb-6">
+      <section className="mx-auto w-full flex flex-col items-center gap-4 mb-6 px-4">
         <span className="bg-pumpkin-600/10 px-2 py-1 rounded-md flex items-center gap-1 text-pumpkin-400 text-sm border border-pumpkin-300/50">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <mask id="mask0_64_178" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="16">
@@ -91,143 +91,6 @@ function App() {
       <footer className="w-full mt-10 mb-6 flex items-center justify-center">
         <span className="text-sm text-vulcan-200 text-center">© 2026 Lubricentro — Consulta de mantenimiento</span>
       </footer>
-
-
-      {/* <main className="max-w-5xl mx-auto bg-vulcan-900/20 p-6 rounded-2xl flex flex-col items-start gap-3.5">
-        <h2 className="text-lg font-medium">Resultado</h2>
-        <div className="bg-white text-vulcan-950 border border-black px-1 py-2 rounded-sm">
-          <div className="flex items-center gap-4 mb-1">
-            <img src={Flag} alt="Bandera Perú" className="w-6 h-auto" />
-            <p className="text-xs">PERU</p>
-            <span className="bg-vulcan-100 text-[6px] font-semibold px-0.5 py-0.5 border">Z8H-232</span>
-          </div>
-          <p className="font-semibold text-center">Z8H-232</p>
-        </div>
-
-        <div className="w-full grid grid-cols-2 border border-vulcan-800 rounded-2xl">
-          <div className="flex flex-col gap-3.5 p-3.5 border-r border-b border-vulcan-800">
-            <h3 className="font-medium">Cliente</h3>
-            <p>Carlos Mendoza Rivera</p>
-          </div>
-
-          <div className="flex flex-col gap-3.5 p-3.5 border-b border-b-vulcan-800">
-            <h3 className="font-medium">Vehículo</h3>
-            <div className="flex items-center justify-between">
-              <div className="flex flex-col gap-1">
-                <h4 className="text-vulcan-300 text-sm font-medium">MARCA</h4>
-                <p>Toyota Camry</p>
-              </div>
-              <div className="flex flex-col gap-1">
-                <h4 className="text-vulcan-300 text-sm font-medium">MODELO</h4>
-                <p>Cerato</p>
-              </div>
-              <div className="flex flex-col gap-1">
-                <h4 className="text-vulcan-300 text-sm font-medium">AÑO</h4>
-                <p>2021</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="flex flex-col gap-3.5 p-3.5 border-r border-r-vulcan-800">
-            <h4 className="font-medium">Aceite motor</h4>
-            <p>Motul 0W-20 - API SP / ILSAC GF - 6</p>
-          </div>
-
-          <div className="flex flex-col gap-1.5 p-3.5">
-            <h4 className="font-medium">Filtros</h4>
-            <div className="flex flex-wrap gap-2">
-              <span className="bg-vulcan-800/40 text-sm px-2 py-1 rounded-lg">Aceite: OIL-100</span>
-              <span className="bg-vulcan-800/40 text-sm px-2 py-1 rounded-lg">Aire: Sukura A-2190</span>
-              <span className="bg-vulcan-800/40 text-sm px-2 py-1 rounded-lg">Cabina: Mann CUK 26 009</span>
-            </div>
-          </div>
-        </div>
-
-        <section className="grid grid-cols-2 gap-6">
-          <div>
-            <h4 className="font-medium mb-2">Próximo mantenimiento</h4>
-            <div className="bg-pumpkin-400/20 p-3.5 rounded-xl flex flex-col items-start gap-1.5">
-              <span className="bg-pumpkin-700 flex items-center gap-1 px-2 py-1 rounded-md text-sm font-semibold">
-                <svg width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <mask id="mask0_23_120" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
-                    <rect width="20" height="20" fill="currentColor" />
-                  </mask>
-                  <g mask="url(#mask0_23_120)">
-                    <path d="M10.6042 14.3959C10.2014 13.9931 10 13.5 10 12.9167C10 12.3334 10.2014 11.8403 10.6042 11.4375C11.0069 11.0347 11.5 10.8334 12.0833 10.8334C12.6667 10.8334 13.1597 11.0347 13.5625 11.4375C13.9653 11.8403 14.1667 12.3334 14.1667 12.9167C14.1667 13.5 13.9653 13.9931 13.5625 14.3959C13.1597 14.7986 12.6667 15 12.0833 15C11.5 15 11.0069 14.7986 10.6042 14.3959ZM4.16667 18.3334C3.70833 18.3334 3.31597 18.1702 2.98958 17.8438C2.66319 17.5174 2.5 17.125 2.5 16.6667V5.00002C2.5 4.54169 2.66319 4.14933 2.98958 3.82294C3.31597 3.49655 3.70833 3.33335 4.16667 3.33335H5V2.50002C5 2.26391 5.07986 2.06599 5.23958 1.90627C5.39931 1.74655 5.59722 1.66669 5.83333 1.66669C6.06944 1.66669 6.26736 1.74655 6.42708 1.90627C6.58681 2.06599 6.66667 2.26391 6.66667 2.50002V3.33335H13.3333V2.50002C13.3333 2.26391 13.4132 2.06599 13.5729 1.90627C13.7326 1.74655 13.9306 1.66669 14.1667 1.66669C14.4028 1.66669 14.6007 1.74655 14.7604 1.90627C14.9201 2.06599 15 2.26391 15 2.50002V3.33335H15.8333C16.2917 3.33335 16.684 3.49655 17.0104 3.82294C17.3368 4.14933 17.5 4.54169 17.5 5.00002V16.6667C17.5 17.125 17.3368 17.5174 17.0104 17.8438C16.684 18.1702 16.2917 18.3334 15.8333 18.3334H4.16667ZM4.16667 16.6667H15.8333V8.33335H4.16667V16.6667ZM4.16667 6.66669H15.8333V5.00002H4.16667V6.66669Z" fill="currentColor" />
-                  </g>
-                </svg>
-                IMPORTANTE
-              </span>
-              <p>A los 105,000 km, lo que ocurra primero. o el 100 dic. 2025</p>
-            </div>
-          </div>
-          <article>
-            <h4 className="font-medium mb-2">Notas</h4>
-            <div className="bg-vulcan-800/40 p-3.5 rounded-xl flex flex-col items-start gap-1.5">
-              <span className="bg-cyan-700 px-2 py-1 rounded-md text-sm font-medium">OBSERVACIÓN</span>
-              <p>Leve sudoración en retén de cigúenal. Revisar próximo servicio</p>
-            </div>
-          </article>
-        </section>
-        <hr className="w-full text-vulcan-900" />
-        
-        <section className="w-full flex flex-col gap-4">
-          <h3 className="font-semibold mb-2">Historial de Servicios</h3>
-          <article className="bg-vulcan-800/20 flex flex-col gap-5 p-4 rounded-2xl">
-            <div className="flex items-center justify-between">
-              <div className="flex flex-col gap-2">
-                <div className="flex items-center gap-4">
-                  <h4 className="font-semibold">Cambio de acéite</h4>
-                  <span className="bg-green-500/20 px-1 py-0.5 rounded-md text-green-500 font-medium">
-                    Completado
-                  </span>
-                </div>
-                <p>Cambio de aceite sintético 5W-30 y filtro de aceite</p>
-              </div>
-              <div className="flex flex-col gap-1">
-                <span className="font-semibold">S/. 200.00</span>
-                <p>12 jun, 2025 - 100,500 km</p>
-              </div>
-            </div>
-
-            <div className="flex items-center gap-4">
-              <div>
-                <p className="text-sm mb-1.5">Aceite agregado</p>
-                <div className="max-w-64 w-full h-40 bg-vulcan-800/30 rounded-xl">
-                  <img src="" alt="Cambio de aceite" />
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <article className="bg-vulcan-800/20 flex flex-col gap-5 p-4 rounded-2xl">
-            <div className="flex items-center justify-between">
-              <div className="flex flex-col gap-2">
-                <div className="flex items-center gap-4">
-                  <h4 className="font-semibold">Cambio de acéite</h4>
-                  <span className="bg-green-500/20 px-1 py-0.5 rounded-md text-green-500 font-medium">
-                    Completado
-                  </span>
-                </div>
-                <p>Cambio de aceite sintético 5W-30 y filtro de aceite</p>
-              </div>
-              <div className="flex flex-col gap-1">
-                <span className="font-semibold">S/. 200.00</span>
-                <p>12 jun, 2025 - 100,500 km</p>
-              </div>
-            </div>
-
-            <div className="flex items-center gap-4">
-              <div>
-                <p className="text-sm mb-1.5">Aceite agregado</p>
-                <div className="max-w-64 w-full h-40 bg-vulcan-800/30 rounded-xl">
-                  <img src="" alt="Cambio de aceite" />
-                </div>
-              </div>
-            </div>
-          </article>
-        </section>
-      </main> */}
     </>
   )
 }
